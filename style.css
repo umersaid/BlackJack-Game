@@ -1,0 +1,41 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial,
+    sans-serif;
+  background: url("./background.jpg") no-repeat center center/cover;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+/* 
+3. Style the button according to the provided design
+text color - #016f32
+width      - 150px
+background - goldenrod
+ */
+
+button {
+  background-color: goldenrod;
+  /* display: block; */
+  border: none;
+  width: 150px;
+  color: #016f32;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+#new-card {
+  display: block;
+  margin-left: 50%;
+  margin: auto;
+  box-sizing: border-box;
+}
